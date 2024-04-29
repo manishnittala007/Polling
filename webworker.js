@@ -16,7 +16,7 @@ function performAPICall() {
     // Create a new Promise to encapsulate the asynchronous API call
     return new Promise((resolve, reject) => {
       // Perform the API call using fetch or any other suitable method
-      fetch('http://localhost:3000/getData', {
+      fetch('https://stagingstudentpython.edwisely.com/miscellaneous/getData', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
